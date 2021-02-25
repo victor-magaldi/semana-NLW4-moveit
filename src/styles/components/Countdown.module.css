@@ -30,7 +30,7 @@
   flex: 1;
 }
 
-.startCountdonw {
+.countdownButton {
   width: 100%;
   justify-content: center;
   display: flex;
@@ -47,6 +47,12 @@
   font-weight: 600;
   transition: background-color 0.2s;
 }
-.startCountdonw:hover {
+.countdownButton:hover {
   background-color: var(--blue-dark);
+}
+.countdownButton.countdownButtonPause {
+  background-color: var(--red);
+}
+.countdownButton.countdownButtonPause:hover {
+  color: var(--title);
 }
