@@ -1,8 +1,13 @@
-import Head from "next/head"
-import"../styles/global.css"
+import "../styles/global.css";
+
+import { ChallengeProviders } from "../contexts/ChallengesContexts";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <ChallengeProviders>
+      <Component {...pageProps} />
+    </ChallengeProviders>
+  );
 }
 
-export default MyApp
+export default MyApp;
