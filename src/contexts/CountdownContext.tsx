@@ -42,7 +42,7 @@ export function CountdownProvider({ children }: CountdownProviderProps) {
     clearTimeout(countdownTimeOut);
     setIsActive(false);
     setHasFinish(false);
-    setTime(25 * 60);
+    setTime(0.1 * 60);
   }
 
   // toda vez que o estado active mudar ele vai executar a primeira funçao do parametro 1
