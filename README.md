@@ -6,7 +6,7 @@ Existe um cronomêtro que de tempos em tempos, sorteia uma atividade para o prof
 ### `Rodando o Projeto `
 
 Instalar as dependencias com "npm install".
-Após isso basta da o comando "npm start" para rodar o projeto em modo de desenvolvimento ou "npm run build"
+Após isso basta da o comando "npm run dev" para rodar o projeto em modo de desenvolvimento ou "npm run build"
 
 ### `🚀 Tecnologias `
 
